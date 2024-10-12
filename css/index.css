@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/****************************** Importación de Fuentes Web ******************************/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,9000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/****************************** Importación de Fuentes Web ******************************/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/****************************** Variables ******************************/
+/****************************** Mixins ******************************/
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #14273e;
+}
+
+label {
+  font-family: "Playfair Display", serif;
+  color: #14273e;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #14273e;
+}
+
+#forgot-pswd-btn a {
+  text-decoration: none;
+  color: #14273e;
+}
+
+#forgot-pswd-btn a:hover {
+  transition: all 0.5s ease 0s;
+  font-weight: bolder;
+}
+
+.carousel-banner h1 {
+  color: #eef6fb;
+}
+
+/****************************** Menu Nav ******************************/
+.nav-style {
+  background-color: #23446c;
+  box-shadow: 0 0 0.938rem #f5e0b6;
+}
+
+.navbar {
+  padding: 0.625rem 0;
+  letter-spacing: 0.188rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.optmenu {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  transition: all 1s ease;
+}
+
+.optmenu:hover {
+  color: rgba(35, 68, 108, 0.4);
+  border-radius: 0.313rem;
+  background-color: rgba(238, 246, 251, 0.4);
+  transition: all 1s ease;
+}
+
+.optmenu:active {
+  background-color: #14273e;
+}
+
+/****************************** Menu Hamburguesa ******************************/
+.navbar-toggler {
+  background-color: rgba(238, 246, 251, 0.4);
+  border: 0.188rem solid #f5e0b6;
+}
+
+.navbar-toggler:hover {
+  background-color: #8F143D;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #0077B5;
+  border-width: #0AA9FF;
+}
+
+/* Líneas */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(156, 160, 187, 0.866)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.test {
+  color: rgba(156, 160, 187, 0.866);
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(18, 22, 52, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/****************************** Flechas carrusel ******************************/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3.125rem;
+  height: 3.125rem;
+  background-size: 100%, 100%;
+}
+
+/****************************** Flechas carrusel ******************************/
+.carousel-1 {
+  background-image: url("../imgs/ac_carousel_1.png");
+}
+
+.carousel-2 {
+  background-image: url("../imgs/ac_carousel_2.png");
+}
+
+.carousel-3 {
+  background-image: url("../imgs/ac_carousel_3.png");
+}
+
+.carousel-4 {
+  background-image: url("../imgs/ac_carousel_4.png");
+}
+
+.carousel-5 {
+  background-image: url("../imgs/ac_carousel_5.png");
+}
+
+.carousel-banner {
+  background-size: cover;
+  background-position: center;
+  /* color del modo */
+  background-color: rgba(238, 246, 251, 0.4);
+  /* modo de color */
+  background-blend-mode: luminosity;
+  height: 50rem;
+  /* profundidad */
+  box-shadow: inset 0 0 0 1000px rgba(218, 201, 201, 0.4);
+  padding: 6.25rem;
+}/*# sourceMappingURL=index.css.map */

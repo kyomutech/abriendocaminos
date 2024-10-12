@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/****************************** Importación de Fuentes Web ******************************/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,9000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/****************************** Importación de Fuentes Web ******************************/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/****************************** Variables ******************************/
+/****************************** Mixins ******************************/
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #14273e;
+}
+
+label {
+  font-family: "Playfair Display", serif;
+  color: #14273e;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #14273e;
+}
+
+#forgot-pswd-btn a {
+  text-decoration: none;
+  color: #14273e;
+}
+
+#forgot-pswd-btn a:hover {
+  transition: all 0.5s ease 0s;
+  font-weight: bolder;
+}
+
+body.login-body {
+  background-color: #eef6fb;
+}
+
+.login-title {
+  color: #14273e !important;
+  letter-spacing: 0.063rem;
+}
+
+.login-form-section {
+  border: 0.188rem solid #eef6fb;
+  border-radius: 0.625rem;
+}
+
+.card {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.btn-ac-primary {
+  background-color: #f5e0b6;
+  color: #23446c;
+}
+
+.btn-ac-primary:hover {
+  background-color: #f1c57e;
+  color: #14273e;
+  transition: all 0.5s ease 0s;
+}
+
+.btn-ac-secondary {
+  background-color: #bddcef;
+  color: #23446c;
+}
+
+.btn-ac-secondary:hover {
+  background-color: #bddcef;
+  color: #23446c;
+  transition: all 0.5s ease 0s;
+}
+
+.card-header {
+  background-color: rgba(35, 68, 108, 0.4) !important;
+}
+
+.card-header h3 {
+  color: #14273e !important;
+}
+
+.required {
+  color: #DB3939;
+  font-size: 0.688rem;
+}/*# sourceMappingURL=login.css.map */

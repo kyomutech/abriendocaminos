@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/****************************** Importación de Fuentes Web ******************************/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,9000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "general.scss";
+
+body.login-body {
+    background-color: $color-palette-p-1;
+}
+
+.login-title {
+    color: $color-palette-p-2 !important;
+    letter-spacing: $px-1;
+}
+
+.login-form-section {
+    border: $px-3 solid $color-palette-p-1;
+    border-radius: $px-10;
+}
+
+.card {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.btn-ac-primary {
+    background-color: $color-palette-p-3;
+    color: $color-palette-s-2;
+}
+
+.btn-ac-primary:hover {
+    background-color: $color-palette-s-3;
+    color: $color-palette-p-2;
+    transition: all 0.5s ease 0s;
+}
+
+.btn-ac-secondary {
+    background-color: $color-palette-s-1;
+    color: $color-palette-s-2;
+}
+
+.btn-ac-secondary:hover {
+    background-color: $color-palette-s-1;
+    color: $color-palette-s-2;
+    transition: all 0.5s ease 0s;
+
+}
+
+.card-header {
+    background-color: $color-palette-s-2-transp !important;
+}
+
+.card-header h3 {
+    color: $color-palette-p-2 !important;
+}
+
+.required {
+    color: $color-error-1;
+    font-size: $px-11;
+}

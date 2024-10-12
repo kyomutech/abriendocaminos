@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/****************************** Importación de Fuentes Web ******************************/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/****************************** Variables ******************************/
+/****************************** Mixins ******************************/
+html {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif;
+  color: #14273e;
+}
+
+label {
+  font-family: "Playfair Display", serif;
+  color: #14273e;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: #14273e;
+}
+
+#forgot-pswd-btn a {
+  text-decoration: none;
+  color: #14273e;
+}
+
+#forgot-pswd-btn a:hover {
+  transition: all 0.5s ease 0s;
+  font-weight: bolder;
+}/*# sourceMappingURL=general.css.map */
