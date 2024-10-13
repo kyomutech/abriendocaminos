@@ -81,4 +81,58 @@ p {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   border: 0; /* Remove default border */
-}/*# sourceMappingURL=general.css.map */
+}
+
+@media (max-width: 1399px) {
+  .carousel-indicators {
+    display: none !important;
+  }
+  nav.fixed-top {
+    position: static;
+  }
+}
+/* Extra Small devices (landscape phones, 576px and down) */
+@media (max-width: 22.5rem) {
+  h1 {
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .carousel-banner {
+    padding-top: 0;
+    top: 0%;
+    max-width: 36rem;
+    height: 12.5rem;
+    background-position: center;
+    /* color del modo */
+    background-color: rgba(238, 246, 251, 0.4);
+    /* modo de color */
+    background-blend-mode: luminosity;
+    /* profundidad */
+    box-shadow: inset 0 0 0 1000px rgba(218, 201, 201, 0.4);
+    padding: 6.25rem;
+  }
+  .carousel-banner div {
+    padding-bottom: 1.25rem;
+    position: relative;
+  }
+  footer {
+    position: fixed;
+  }
+  .map-container {
+    padding-top: 25%; /* Adjust for different aspect ratios on smaller screens if needed */
+  }
+  .list-group-item div strong {
+    font-size: 0.8rem;
+  }
+}
+/* Extra Small devices (landscape phones, 576px and down) */
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (tablets, 992px and up) */
+/* X-Large devices (Larger Desktops, 1400px and up) */
+/* XX-Large devices (Larger Desktops, 1400px and up) *//*# sourceMappingURL=rules.css.map */

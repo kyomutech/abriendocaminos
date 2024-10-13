@@ -123,11 +123,17 @@ $transition-ease: ease;
   transition: $properties $duration $timing-function;
 }
 
+/****************************** Global styles ******************************/
+body {
+    margin: 0; /* Ensure no default margin causes overflow */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 html {
     font-size: $font-size-base;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: $font-playfair-serif;
     color: $color-palette-p-2;
 }
@@ -140,8 +146,10 @@ label {
 p {
     font-family: $font-lato-sans;
     color: $color-palette-p-2;
+    font-size: $px-20;
 }
 
+/****************************** Login elements ******************************/
 #forgot-pswd-btn a {
     text-decoration: none;
     color: $color-palette-p-2;
@@ -150,4 +158,49 @@ p {
 #forgot-pswd-btn a:hover {
     transition: all 0.5s ease 0s;
     font-weight: bolder;
+}
+
+
+/****************************** Division line ******************************/
+.separator-line {
+    padding-top: $px-10;
+    padding-bottom: $px-5;
+    background-color: $color-palette-s-1;
+  }
+
+/****************************** Text elements ******************************/
+.text-justify-custom {
+    text-align: justify;
+}
+
+.text-justify-custom::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/****************************** Footer ******************************/
+.container-fluid-footer {
+    padding: $px-20 0;
+  }
+
+/****************************** Map ******************************/
+
+.map-container {
+    position: relative;
+    width: 100%; /* Full width */
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    overflow: hidden; /* Prevent overflow */
+    border: 10px solid transparent; /* Optional border */
+    box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    border: 0; /* Remove default border */
 }

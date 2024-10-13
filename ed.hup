@@ -1,0 +1,18 @@
+{
+  "name": "abriendocaminos",
+  "version": "1.0.0",
+  "description": "Grupo Abriendo Caminos - Sétima & Aniversarios",
+  "main": "login.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "AC"
+  ],
+  "author": "Roberto Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0"
+  }
+}

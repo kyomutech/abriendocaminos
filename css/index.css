@@ -126,6 +126,7 @@ p {
 }
 
 .carousel-banner {
+  top: 0%;
   background-size: cover;
   background-position: center;
   /* color del modo */

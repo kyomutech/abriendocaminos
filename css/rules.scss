@@ -1,0 +1,107 @@
+@import "general.scss";
+
+@media (max-width: 1399px) {
+    .carousel-indicators {
+      display: none !important;
+    }
+
+    nav.fixed-top {
+        position: static;
+    }
+}
+
+/* Extra Small devices (landscape phones, 576px and down) */
+@media (max-width: 22.5rem){
+    h1 {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 0.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .carousel-banner {
+        padding-top: 0;
+        top: 0%;
+        max-width: 36rem;
+        height: $px-200;
+        background-position: center;
+        /* color del modo */
+        background-color: $color-palette-p-1-transp;
+        /* modo de color */
+        background-blend-mode: luminosity;
+        /* profundidad */
+        box-shadow: inset 0 0 0 1000px rgba(218, 201, 201, 0.4);
+        padding: $px-100;
+    }
+    .carousel-banner div {
+        padding-bottom: $px-20;
+        position: relative;
+    }
+    footer {
+        position: fixed;
+    }
+    .map-container {
+        padding-top: 25%; /* Adjust for different aspect ratios on smaller screens if needed */
+    }
+    .list-group-item div strong {
+        font-size: 0.8rem;
+    }
+}
+
+/* Extra Small devices (landscape phones, 576px and down) */
+// @media (max-width: 36rem){
+//     .hero-content h1 {
+//         font-size: $px-15;
+//     }
+// }
+
+/* Small devices (landscape phones, 576px and up) */
+// @media (min-width: 36rem){
+//     .hero-content h1 {
+//         font-size: $px-17;
+//     }
+// }
+
+/* Medium devices (tablets, 768px and up) */
+// @media (min-width: 48rem){
+//     .hero-content h1 {
+//         font-size: $px-19;
+//     }
+
+//     .price-card:hover {
+//         // background-color: red;
+//         margin-top: -5px;
+//         z-index: 5;
+//         transform: scale(1.1);
+//         transition: all 0.2s ease-in;
+//         border: none;
+//         /*buscar sombras generadas 
+//         https://getcssscan.com/css-box-shadow-examples */
+//         /*cuatro valores: desplazamiento de x, desplazamiento de y, nivel de desenfoque y color de la sombra.*/
+//         /*box-shadow: -2px 3px 7px 1px cyan;*/
+//         box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+//     }
+// }
+
+/* Large devices (tablets, 992px and up) */
+// @media (min-width: 62rem){
+//     .hero-content h1 {
+//         font-size: $px-21;
+//     }
+// }
+
+/* X-Large devices (Larger Desktops, 1400px and up) */
+// @media (min-width: 75rem){
+//     .hero-content h1 {
+//         font-size: $px-23;
+//     }
+// }
+
+/* XX-Large devices (Larger Desktops, 1400px and up) */
+// @media (min-width: 87.5rem){
+//     .hero-content h1 {
+//         font-size: $px-25;
+//     }
+// }
